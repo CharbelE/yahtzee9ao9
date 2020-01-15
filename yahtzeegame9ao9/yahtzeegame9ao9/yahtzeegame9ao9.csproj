@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{119D904C-38BA-45FF-A245-5A66BDEC4293}</ProjectGuid>
+    <ProjectGuid>{E7A3DAC5-E43D-4B73-807B-E5C41EAACF98}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>yahtzee</RootNamespace>
-    <AssemblyName>yahtzee</AssemblyName>
+    <RootNamespace>yahtzeegame9ao9</RootNamespace>
+    <AssemblyName>yahtzeegame9ao9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

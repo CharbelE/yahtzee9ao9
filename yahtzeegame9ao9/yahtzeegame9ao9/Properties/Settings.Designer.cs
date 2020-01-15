@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yahtzee.Properties
+namespace yahtzeegame9ao9.Properties
 {
 
 
