@@ -65,6 +65,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.btnRegels = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice3)).BeginInit();
@@ -374,11 +375,21 @@
             this.label13.TabIndex = 66;
             this.label13.Text = "total";
             // 
+            // btnRegels
+            // 
+            this.btnRegels.Location = new System.Drawing.Point(713, 11);
+            this.btnRegels.Name = "btnRegels";
+            this.btnRegels.Size = new System.Drawing.Size(75, 28);
+            this.btnRegels.TabIndex = 67;
+            this.btnRegels.Text = "Regels";
+            this.btnRegels.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRegels);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -467,6 +478,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnRegels;
     }
 }
 
