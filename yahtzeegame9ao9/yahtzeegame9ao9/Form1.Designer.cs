@@ -226,6 +226,7 @@
             this.btnHold5.TabIndex = 40;
             this.btnHold5.Text = "Hold";
             this.btnHold5.UseVisualStyleBackColor = true;
+            this.btnHold5.Click += new System.EventHandler(this.btnHold5_Click);
             // 
             // btnHold4
             // 
@@ -235,6 +236,7 @@
             this.btnHold4.TabIndex = 39;
             this.btnHold4.Text = "Hold";
             this.btnHold4.UseVisualStyleBackColor = true;
+            this.btnHold4.Click += new System.EventHandler(this.btnHold4_Click);
             // 
             // btnHold3
             // 
@@ -244,6 +246,7 @@
             this.btnHold3.TabIndex = 38;
             this.btnHold3.Text = "Hold";
             this.btnHold3.UseVisualStyleBackColor = true;
+            this.btnHold3.Click += new System.EventHandler(this.btnHold3_Click);
             // 
             // btnHold2
             // 
@@ -253,6 +256,7 @@
             this.btnHold2.TabIndex = 37;
             this.btnHold2.Text = "Hold";
             this.btnHold2.UseVisualStyleBackColor = true;
+            this.btnHold2.Click += new System.EventHandler(this.btnHold2_Click);
             // 
             // btnHold
             // 
@@ -262,6 +266,7 @@
             this.btnHold.TabIndex = 36;
             this.btnHold.Text = "Hold";
             this.btnHold.UseVisualStyleBackColor = true;
+            this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
             // pbDice5
             // 
@@ -311,6 +316,7 @@
             this.btnRoll.TabIndex = 30;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = true;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click);
             // 
             // label7
             // 
@@ -383,6 +389,7 @@
             this.btnRegels.TabIndex = 67;
             this.btnRegels.Text = "Regels";
             this.btnRegels.UseVisualStyleBackColor = true;
+            this.btnRegels.Click += new System.EventHandler(this.btnRegels_Click);
             // 
             // Form1
             // 
