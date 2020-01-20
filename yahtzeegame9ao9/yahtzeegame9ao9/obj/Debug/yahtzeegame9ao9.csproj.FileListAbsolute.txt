@@ -1,0 +1,9 @@
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.csprojAssemblyReference.cache
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.Form1.resources
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.Properties.Resources.resources
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.csproj.GenerateResource.cache
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.exe.config
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.exe
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.pdb
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.exe
+D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.pdb

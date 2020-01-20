@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -66,17 +67,31 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.btnRegels = new System.Windows.Forms.Button();
+            this.pdDiceIns1 = new System.Windows.Forms.PictureBox();
+            this.pdDiceIns2 = new System.Windows.Forms.PictureBox();
+            this.pdDiceIns3 = new System.Windows.Forms.PictureBox();
+            this.pdDiceIns4 = new System.Windows.Forms.PictureBox();
+            this.pdDiceIns5 = new System.Windows.Forms.PictureBox();
+            this.pdDiceIns6 = new System.Windows.Forms.PictureBox();
+            this.btnReset = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns6)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(573, 116);
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(572, 184);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 17);
             this.label6.TabIndex = 59;
@@ -85,7 +100,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(467, 116);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(466, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 17);
             this.label5.TabIndex = 58;
@@ -94,7 +110,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(362, 116);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(361, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 17);
             this.label4.TabIndex = 57;
@@ -103,7 +120,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(256, 116);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(255, 184);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 17);
             this.label3.TabIndex = 56;
@@ -112,7 +130,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(145, 116);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(144, 184);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 55;
@@ -121,7 +140,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 116);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(40, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 17);
             this.label1.TabIndex = 54;
@@ -129,98 +149,98 @@
             // 
             // tbTotal6
             // 
-            this.tbTotal6.Location = new System.Drawing.Point(552, 147);
+            this.tbTotal6.Location = new System.Drawing.Point(551, 215);
             this.tbTotal6.Name = "tbTotal6";
             this.tbTotal6.Size = new System.Drawing.Size(100, 22);
             this.tbTotal6.TabIndex = 53;
             // 
             // tbTotal5
             // 
-            this.tbTotal5.Location = new System.Drawing.Point(446, 147);
+            this.tbTotal5.Location = new System.Drawing.Point(445, 215);
             this.tbTotal5.Name = "tbTotal5";
             this.tbTotal5.Size = new System.Drawing.Size(100, 22);
             this.tbTotal5.TabIndex = 52;
             // 
             // tbTotal4
             // 
-            this.tbTotal4.Location = new System.Drawing.Point(340, 147);
+            this.tbTotal4.Location = new System.Drawing.Point(339, 215);
             this.tbTotal4.Name = "tbTotal4";
             this.tbTotal4.Size = new System.Drawing.Size(100, 22);
             this.tbTotal4.TabIndex = 51;
             // 
             // tbTotal3
             // 
-            this.tbTotal3.Location = new System.Drawing.Point(234, 147);
+            this.tbTotal3.Location = new System.Drawing.Point(233, 215);
             this.tbTotal3.Name = "tbTotal3";
             this.tbTotal3.Size = new System.Drawing.Size(100, 22);
             this.tbTotal3.TabIndex = 50;
             // 
             // tbTotal2
             // 
-            this.tbTotal2.Location = new System.Drawing.Point(128, 147);
+            this.tbTotal2.Location = new System.Drawing.Point(127, 215);
             this.tbTotal2.Name = "tbTotal2";
             this.tbTotal2.Size = new System.Drawing.Size(100, 22);
             this.tbTotal2.TabIndex = 49;
             // 
             // tbTotal1
             // 
-            this.tbTotal1.Location = new System.Drawing.Point(22, 147);
+            this.tbTotal1.Location = new System.Drawing.Point(21, 215);
             this.tbTotal1.Name = "tbTotal1";
             this.tbTotal1.Size = new System.Drawing.Size(100, 22);
             this.tbTotal1.TabIndex = 48;
             // 
             // tbTotalAll
             // 
-            this.tbTotalAll.Location = new System.Drawing.Point(22, 340);
+            this.tbTotalAll.Location = new System.Drawing.Point(22, 393);
             this.tbTotalAll.Name = "tbTotalAll";
             this.tbTotalAll.Size = new System.Drawing.Size(100, 22);
             this.tbTotalAll.TabIndex = 47;
             // 
             // tbSmallStreet
             // 
-            this.tbSmallStreet.Location = new System.Drawing.Point(234, 283);
+            this.tbSmallStreet.Location = new System.Drawing.Point(233, 341);
             this.tbSmallStreet.Name = "tbSmallStreet";
             this.tbSmallStreet.Size = new System.Drawing.Size(100, 22);
             this.tbSmallStreet.TabIndex = 46;
             // 
             // tbLargeStreet
             // 
-            this.tbLargeStreet.Location = new System.Drawing.Point(128, 283);
+            this.tbLargeStreet.Location = new System.Drawing.Point(127, 341);
             this.tbLargeStreet.Name = "tbLargeStreet";
             this.tbLargeStreet.Size = new System.Drawing.Size(100, 22);
             this.tbLargeStreet.TabIndex = 45;
             // 
             // tbYahtzee
             // 
-            this.tbYahtzee.Location = new System.Drawing.Point(21, 283);
+            this.tbYahtzee.Location = new System.Drawing.Point(20, 341);
             this.tbYahtzee.Name = "tbYahtzee";
             this.tbYahtzee.Size = new System.Drawing.Size(100, 22);
             this.tbYahtzee.TabIndex = 44;
             // 
             // tbFullHouse
             // 
-            this.tbFullHouse.Location = new System.Drawing.Point(234, 226);
+            this.tbFullHouse.Location = new System.Drawing.Point(234, 285);
             this.tbFullHouse.Name = "tbFullHouse";
             this.tbFullHouse.Size = new System.Drawing.Size(100, 22);
             this.tbFullHouse.TabIndex = 43;
             // 
             // tb4OfAKind
             // 
-            this.tb4OfAKind.Location = new System.Drawing.Point(128, 226);
+            this.tb4OfAKind.Location = new System.Drawing.Point(128, 285);
             this.tb4OfAKind.Name = "tb4OfAKind";
             this.tb4OfAKind.Size = new System.Drawing.Size(100, 22);
             this.tb4OfAKind.TabIndex = 42;
             // 
             // tb3OfAKind
             // 
-            this.tb3OfAKind.Location = new System.Drawing.Point(21, 226);
+            this.tb3OfAKind.Location = new System.Drawing.Point(21, 285);
             this.tb3OfAKind.Name = "tb3OfAKind";
             this.tb3OfAKind.Size = new System.Drawing.Size(100, 22);
             this.tb3OfAKind.TabIndex = 41;
             // 
             // btnHold5
             // 
-            this.btnHold5.Location = new System.Drawing.Point(552, 67);
+            this.btnHold5.Location = new System.Drawing.Point(552, 118);
             this.btnHold5.Name = "btnHold5";
             this.btnHold5.Size = new System.Drawing.Size(100, 23);
             this.btnHold5.TabIndex = 40;
@@ -230,7 +250,7 @@
             // 
             // btnHold4
             // 
-            this.btnHold4.Location = new System.Drawing.Point(446, 67);
+            this.btnHold4.Location = new System.Drawing.Point(446, 118);
             this.btnHold4.Name = "btnHold4";
             this.btnHold4.Size = new System.Drawing.Size(100, 23);
             this.btnHold4.TabIndex = 39;
@@ -240,7 +260,7 @@
             // 
             // btnHold3
             // 
-            this.btnHold3.Location = new System.Drawing.Point(340, 67);
+            this.btnHold3.Location = new System.Drawing.Point(340, 118);
             this.btnHold3.Name = "btnHold3";
             this.btnHold3.Size = new System.Drawing.Size(100, 23);
             this.btnHold3.TabIndex = 38;
@@ -250,7 +270,7 @@
             // 
             // btnHold2
             // 
-            this.btnHold2.Location = new System.Drawing.Point(234, 67);
+            this.btnHold2.Location = new System.Drawing.Point(234, 118);
             this.btnHold2.Name = "btnHold2";
             this.btnHold2.Size = new System.Drawing.Size(100, 23);
             this.btnHold2.TabIndex = 37;
@@ -260,7 +280,7 @@
             // 
             // btnHold
             // 
-            this.btnHold.Location = new System.Drawing.Point(128, 66);
+            this.btnHold.Location = new System.Drawing.Point(128, 117);
             this.btnHold.Name = "btnHold";
             this.btnHold.Size = new System.Drawing.Size(100, 23);
             this.btnHold.TabIndex = 36;
@@ -270,41 +290,46 @@
             // 
             // pbDice5
             // 
-            this.pbDice5.Location = new System.Drawing.Point(552, 11);
+            this.pbDice5.Location = new System.Drawing.Point(552, 10);
             this.pbDice5.Name = "pbDice5";
-            this.pbDice5.Size = new System.Drawing.Size(100, 50);
+            this.pbDice5.Size = new System.Drawing.Size(100, 100);
+            this.pbDice5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDice5.TabIndex = 35;
             this.pbDice5.TabStop = false;
             // 
             // pbDice4
             // 
-            this.pbDice4.Location = new System.Drawing.Point(446, 11);
+            this.pbDice4.Location = new System.Drawing.Point(446, 10);
             this.pbDice4.Name = "pbDice4";
-            this.pbDice4.Size = new System.Drawing.Size(100, 50);
+            this.pbDice4.Size = new System.Drawing.Size(100, 100);
+            this.pbDice4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDice4.TabIndex = 34;
             this.pbDice4.TabStop = false;
             // 
             // pbDice3
             // 
-            this.pbDice3.Location = new System.Drawing.Point(340, 11);
+            this.pbDice3.Location = new System.Drawing.Point(340, 10);
             this.pbDice3.Name = "pbDice3";
-            this.pbDice3.Size = new System.Drawing.Size(100, 50);
+            this.pbDice3.Size = new System.Drawing.Size(100, 100);
+            this.pbDice3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDice3.TabIndex = 33;
             this.pbDice3.TabStop = false;
             // 
             // pbDice2
             // 
-            this.pbDice2.Location = new System.Drawing.Point(234, 11);
+            this.pbDice2.Location = new System.Drawing.Point(234, 10);
             this.pbDice2.Name = "pbDice2";
-            this.pbDice2.Size = new System.Drawing.Size(100, 50);
+            this.pbDice2.Size = new System.Drawing.Size(100, 100);
+            this.pbDice2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDice2.TabIndex = 32;
             this.pbDice2.TabStop = false;
             // 
             // pbDice1
             // 
-            this.pbDice1.Location = new System.Drawing.Point(128, 12);
+            this.pbDice1.Location = new System.Drawing.Point(128, 11);
             this.pbDice1.Name = "pbDice1";
-            this.pbDice1.Size = new System.Drawing.Size(100, 50);
+            this.pbDice1.Size = new System.Drawing.Size(100, 100);
+            this.pbDice1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbDice1.TabIndex = 31;
             this.pbDice1.TabStop = false;
             // 
@@ -312,7 +337,7 @@
             // 
             this.btnRoll.Location = new System.Drawing.Point(12, 12);
             this.btnRoll.Name = "btnRoll";
-            this.btnRoll.Size = new System.Drawing.Size(110, 77);
+            this.btnRoll.Size = new System.Drawing.Size(100, 50);
             this.btnRoll.TabIndex = 30;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = true;
@@ -321,7 +346,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(24, 195);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Location = new System.Drawing.Point(24, 254);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 17);
             this.label7.TabIndex = 60;
@@ -330,7 +356,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(134, 195);
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Location = new System.Drawing.Point(134, 254);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 17);
             this.label8.TabIndex = 61;
@@ -339,7 +366,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(246, 195);
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(246, 254);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(75, 17);
             this.label9.TabIndex = 62;
@@ -348,7 +376,8 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(40, 263);
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Location = new System.Drawing.Point(39, 321);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(58, 17);
             this.label10.TabIndex = 63;
@@ -357,7 +386,8 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(134, 263);
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Location = new System.Drawing.Point(133, 321);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(80, 17);
             this.label11.TabIndex = 64;
@@ -366,7 +396,8 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(239, 263);
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Location = new System.Drawing.Point(238, 321);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(82, 17);
             this.label12.TabIndex = 65;
@@ -375,7 +406,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(24, 320);
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Location = new System.Drawing.Point(24, 373);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(35, 17);
             this.label13.TabIndex = 66;
@@ -391,11 +423,84 @@
             this.btnRegels.UseVisualStyleBackColor = true;
             this.btnRegels.Click += new System.EventHandler(this.btnRegels_Click);
             // 
+            // pdDiceIns1
+            // 
+            this.pdDiceIns1.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns1.Image")));
+            this.pdDiceIns1.InitialImage = null;
+            this.pdDiceIns1.Location = new System.Drawing.Point(491, 243);
+            this.pdDiceIns1.Name = "pdDiceIns1";
+            this.pdDiceIns1.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns1.TabIndex = 68;
+            this.pdDiceIns1.TabStop = false;
+            // 
+            // pdDiceIns2
+            // 
+            this.pdDiceIns2.ErrorImage = null;
+            this.pdDiceIns2.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns2.Image")));
+            this.pdDiceIns2.Location = new System.Drawing.Point(597, 243);
+            this.pdDiceIns2.Name = "pdDiceIns2";
+            this.pdDiceIns2.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns2.TabIndex = 69;
+            this.pdDiceIns2.TabStop = false;
+            // 
+            // pdDiceIns3
+            // 
+            this.pdDiceIns3.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns3.Image")));
+            this.pdDiceIns3.Location = new System.Drawing.Point(703, 243);
+            this.pdDiceIns3.Name = "pdDiceIns3";
+            this.pdDiceIns3.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns3.TabIndex = 70;
+            this.pdDiceIns3.TabStop = false;
+            // 
+            // pdDiceIns4
+            // 
+            this.pdDiceIns4.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns4.Image")));
+            this.pdDiceIns4.Location = new System.Drawing.Point(490, 349);
+            this.pdDiceIns4.Name = "pdDiceIns4";
+            this.pdDiceIns4.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns4.TabIndex = 71;
+            this.pdDiceIns4.TabStop = false;
+            // 
+            // pdDiceIns5
+            // 
+            this.pdDiceIns5.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns5.Image")));
+            this.pdDiceIns5.Location = new System.Drawing.Point(596, 349);
+            this.pdDiceIns5.Name = "pdDiceIns5";
+            this.pdDiceIns5.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns5.TabIndex = 72;
+            this.pdDiceIns5.TabStop = false;
+            // 
+            // pdDiceIns6
+            // 
+            this.pdDiceIns6.Image = ((System.Drawing.Image)(resources.GetObject("pdDiceIns6.Image")));
+            this.pdDiceIns6.Location = new System.Drawing.Point(703, 349);
+            this.pdDiceIns6.Name = "pdDiceIns6";
+            this.pdDiceIns6.Size = new System.Drawing.Size(100, 100);
+            this.pdDiceIns6.TabIndex = 73;
+            this.pdDiceIns6.TabStop = false;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(12, 68);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(100, 41);
+            this.btnReset.TabIndex = 80;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::yahtzeegame9ao9.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.pdDiceIns6);
+            this.Controls.Add(this.pdDiceIns5);
+            this.Controls.Add(this.pdDiceIns4);
+            this.Controls.Add(this.pdDiceIns3);
+            this.Controls.Add(this.pdDiceIns2);
+            this.Controls.Add(this.pdDiceIns1);
             this.Controls.Add(this.btnRegels);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -436,11 +541,18 @@
             this.Controls.Add(this.btnRoll);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pdDiceIns6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -486,6 +598,13 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnRegels;
+        private System.Windows.Forms.PictureBox pdDiceIns1;
+        private System.Windows.Forms.PictureBox pdDiceIns2;
+        private System.Windows.Forms.PictureBox pdDiceIns3;
+        private System.Windows.Forms.PictureBox pdDiceIns4;
+        private System.Windows.Forms.PictureBox pdDiceIns5;
+        private System.Windows.Forms.PictureBox pdDiceIns6;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 
