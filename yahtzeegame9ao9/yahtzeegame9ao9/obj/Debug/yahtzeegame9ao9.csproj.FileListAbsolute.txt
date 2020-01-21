@@ -7,3 +7,12 @@ D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.exe
 D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.pdb
 D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.exe
 D:\yahtzeegame\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.pdb
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.exe.config
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.exe
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\bin\Debug\yahtzeegame9ao9.pdb
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.csprojAssemblyReference.cache
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.Form1.resources
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.Properties.Resources.resources
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.csproj.GenerateResource.cache
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.exe
+D:\school\projecten\yahtzee9ao9\yahtzeegame9ao9\yahtzeegame9ao9\obj\Debug\yahtzeegame9ao9.pdb
