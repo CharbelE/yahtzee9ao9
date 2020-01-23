@@ -15,6 +15,12 @@ namespace yahtzeegame9ao9
        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         int counter = 0;
         int count = 3;
+        int countAllOnes = 0;
+        int countAllTwos = 0;
+        int countAllThrees = 0;
+        int countAllFours = 0;
+        int countAllFives = 0;
+        int countAllSixs = 0;
         bool max = false;
         bool hold1 = false;
         bool hold2 = false;
@@ -40,106 +46,177 @@ namespace yahtzeegame9ao9
             int iRnd = new int();
             if (count > 0)
             {
+                
+                
+                count--;
 
-            
-            count--;
+                counter++;
 
-            counter++;
-
-            tbRoll.Text = count.ToString();
+                tbRoll.Text = count.ToString();
             
 
             if (counter < 4)
             {
-                iRnd = r.Next(0, 6);
+                
                 if (hold1 != true)
                 {
-                    if (iRnd == 0)
-                    { pbDice1.Image = pdDiceIns1.Image; 
+                    iRnd = r.Next(1, 7);
+                    if (iRnd == 1)
+                    { pbDice1.Image = pdDiceIns1.Image;
+                            countAllOnes++;
                         }
-                    else if (iRnd == 1)
-                    { pbDice1.Image = pdDiceIns2.Image; }
                     else if (iRnd == 2)
-                    { pbDice1.Image = pdDiceIns3.Image; }
+                    { pbDice1.Image = pdDiceIns2.Image;
+                            countAllTwos++;
+                        }
                     else if (iRnd == 3)
-                    { pbDice1.Image = pdDiceIns4.Image; }
+                    { pbDice1.Image = pdDiceIns3.Image;
+                            countAllThrees++;
+                        }
                     else if (iRnd == 4)
-                    { pbDice1.Image = pdDiceIns5.Image; }
+                    { pbDice1.Image = pdDiceIns4.Image;
+                            countAllFours++;
+                        }
+                    else if (iRnd == 5)
+                    { pbDice1.Image = pdDiceIns5.Image;
+                            countAllFives++;
+                        }
                     else
-                    { pbDice1.Image = pdDiceIns6.Image; }
+                    { pbDice1.Image = pdDiceIns6.Image;
+                            countAllSixs++;
+                        }
                 }
 
                 if (hold2 != true)
                 {
-                    iRnd = r.Next(0, 6);
-                    if (iRnd == 0)
-                    { pbDice2.Image = pdDiceIns1.Image; }
-                    else if (iRnd == 1)
-                    { pbDice2.Image = pdDiceIns2.Image; }
+                    iRnd = r.Next(1, 7);
+                    if (iRnd == 1)
+                    { pbDice2.Image = pdDiceIns1.Image;
+                            countAllOnes++;
+                        }
                     else if (iRnd == 2)
-                    { pbDice2.Image = pdDiceIns3.Image; }
+                    { pbDice2.Image = pdDiceIns2.Image;
+                            countAllTwos++;
+                        }
                     else if (iRnd == 3)
-                    { pbDice2.Image = pdDiceIns4.Image; }
+                    { pbDice2.Image = pdDiceIns3.Image;
+                            countAllThrees++;
+                        }
                     else if (iRnd == 4)
-                    { pbDice2.Image = pdDiceIns5.Image; }
+                    { pbDice2.Image = pdDiceIns4.Image;
+                            countAllFours++;
+                        }
+                    else if (iRnd == 5)
+                    { pbDice2.Image = pdDiceIns5.Image;
+                            countAllFives++;
+                        }
                     else
-                    { pbDice2.Image = pdDiceIns6.Image; }
+                    { pbDice2.Image = pdDiceIns6.Image;
+                            countAllSixs++;
+                        }
                 }
 
                 if (hold3 != true)
                 {
-                    iRnd = r.Next(0, 6);
-                    if (iRnd == 0)
-                    { pbDice3.Image = pdDiceIns1.Image; }
-                    else if (iRnd == 1)
-                    { pbDice3.Image = pdDiceIns2.Image; }
+                    iRnd = r.Next(1, 7);
+                    if (iRnd == 1)
+                    { pbDice3.Image = pdDiceIns1.Image;
+                            countAllOnes++;
+                        }
                     else if (iRnd == 2)
-                    { pbDice3.Image = pdDiceIns3.Image; }
+                    { pbDice3.Image = pdDiceIns2.Image;
+                            countAllTwos++;
+                        }
                     else if (iRnd == 3)
-                    { pbDice3.Image = pdDiceIns4.Image; }
+                    { pbDice3.Image = pdDiceIns3.Image;
+                            countAllThrees++;
+                        }
                     else if (iRnd == 4)
-                    { pbDice3.Image = pdDiceIns5.Image; }
+                    { pbDice3.Image = pdDiceIns4.Image;
+                            countAllFours++;
+                        }
+                    else if (iRnd == 5)
+                    { pbDice3.Image = pdDiceIns5.Image;
+                            countAllFives++;
+                        }
                     else
-                    { pbDice3.Image = pdDiceIns6.Image; }
+                    { pbDice3.Image = pdDiceIns6.Image;
+                            countAllSixs++;
+                        }
                 }
 
                 if (hold4 != true)
                 {
-                    iRnd = r.Next(0, 6);
-                    if (iRnd == 0)
-                    { pbDice4.Image = pdDiceIns1.Image; }
-                    else if (iRnd == 1)
-                    { pbDice4.Image = pdDiceIns2.Image; }
+                    iRnd = r.Next(1, 7);
+                    if (iRnd == 1)
+                    { pbDice4.Image = pdDiceIns1.Image;
+                            countAllOnes++;
+                        }
                     else if (iRnd == 2)
-                    { pbDice4.Image = pdDiceIns3.Image; }
+                    { pbDice4.Image = pdDiceIns2.Image;
+                            countAllTwos++;
+                        }
                     else if (iRnd == 3)
-                    { pbDice4.Image = pdDiceIns4.Image; }
+                    { pbDice4.Image = pdDiceIns3.Image;
+                            countAllThrees++;
+                        }
                     else if (iRnd == 4)
-                    { pbDice4.Image = pdDiceIns5.Image; }
+                    { pbDice4.Image = pdDiceIns4.Image;
+                            countAllFours++;
+                        }
+                    else if (iRnd == 5)
+                    { pbDice4.Image = pdDiceIns5.Image;
+                            countAllFives++;
+                        }
                     else
-                    { pbDice4.Image = pdDiceIns6.Image; }
+                    { pbDice4.Image = pdDiceIns6.Image;
+                            countAllSixs++;
+                        }
                 }
 
                 if (hold5 != true)
                 {
-                    iRnd = r.Next(0, 6);
-                    if (iRnd == 0)
-                    { pbDice5.Image = pdDiceIns1.Image; }
-                    else if (iRnd == 1)
-                    { pbDice5.Image = pdDiceIns2.Image; }
+                    iRnd = r.Next(1, 7);
+                    if (iRnd == 1)
+                    { pbDice5.Image = pdDiceIns1.Image;
+                            countAllOnes++;
+                        }
                     else if (iRnd == 2)
-                    { pbDice5.Image = pdDiceIns3.Image; }
+                    { pbDice5.Image = pdDiceIns2.Image;
+                            countAllTwos++;
+                        }
                     else if (iRnd == 3)
-                    { pbDice5.Image = pdDiceIns4.Image; }
+                    { pbDice5.Image = pdDiceIns3.Image;
+                            countAllThrees++;
+                        }
                     else if (iRnd == 4)
-                    { pbDice5.Image = pdDiceIns5.Image; }
+                    { pbDice5.Image = pdDiceIns4.Image;
+                            countAllFours++;
+                        }
+                    else if (iRnd == 5)
+                    { pbDice5.Image = pdDiceIns5.Image;
+                            countAllFives++;
+                        }
                     else
-                    { pbDice5.Image = pdDiceIns6.Image; }
+                    { pbDice5.Image = pdDiceIns6.Image;
+                            countAllSixs++;
+                        }
                 }
             }
             }
+            countNumber();
         }
 
+        
+        private void countNumber()
+        {
+            tbTotal1.Text = countAllOnes.ToString();
+            tbTotal2.Text = countAllTwos.ToString();
+            tbTotal3.Text = countAllThrees.ToString();
+            tbTotal4.Text = countAllFours.ToString();
+            tbTotal5.Text = countAllFives.ToString();
+            tbTotal6.Text = countAllSixs.ToString();
+        }
         private void btnHold_Click(object sender, EventArgs e)
         {
             hold1 = true;
@@ -187,9 +264,15 @@ namespace yahtzeegame9ao9
             pbDice3.Image = pdDiceInsb.Image;
             pbDice4.Image = pdDiceInsb.Image;
             pbDice5.Image = pdDiceInsb.Image;
+            countAllOnes = 0;
+            countAllTwos = 0;
+            countAllThrees = 0;
+            countAllFours = 0;
+            countAllFives = 0;
+            countAllSixs = 0;
             counter = 0;
             count = 3;
-            tbRoll.Text = "";
+            tbRoll.Text = "3";
         }
 
         private void button1_Click(object sender, EventArgs e)

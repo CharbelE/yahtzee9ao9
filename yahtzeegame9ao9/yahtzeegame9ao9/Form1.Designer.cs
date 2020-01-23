@@ -596,7 +596,7 @@
             this.Controls.Add(this.pbDice1);
             this.Controls.Add(this.btnRoll);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Yahtzee";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).EndInit();
