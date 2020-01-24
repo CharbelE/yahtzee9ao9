@@ -76,6 +76,10 @@
             this.btnReset = new System.Windows.Forms.Button();
             this.pdDiceInsb = new System.Windows.Forms.PictureBox();
             this.tbRoll = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.tbchance = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.tbtotalscore = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice3)).BeginInit();
@@ -541,6 +545,44 @@
             this.tbRoll.Size = new System.Drawing.Size(100, 22);
             this.tbRoll.TabIndex = 82;
             // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(335, 253);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(100, 22);
+            this.label14.TabIndex = 84;
+            this.label14.Text = "chance";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tbchance
+            // 
+            this.tbchance.Location = new System.Drawing.Point(338, 285);
+            this.tbchance.Name = "tbchance";
+            this.tbchance.Size = new System.Drawing.Size(100, 22);
+            this.tbchance.TabIndex = 83;
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(129, 367);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(100, 22);
+            this.label15.TabIndex = 86;
+            this.label15.Text = "total score";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tbtotalscore
+            // 
+            this.tbtotalscore.Location = new System.Drawing.Point(129, 394);
+            this.tbtotalscore.Name = "tbtotalscore";
+            this.tbtotalscore.Size = new System.Drawing.Size(100, 22);
+            this.tbtotalscore.TabIndex = 85;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -548,6 +590,10 @@
             this.BackgroundImage = global::yahtzeegame9ao9.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.tbtotalscore);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.tbchance);
             this.Controls.Add(this.tbRoll);
             this.Controls.Add(this.pdDiceInsb);
             this.Controls.Add(this.btnReset);
@@ -666,6 +712,10 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.PictureBox pdDiceInsb;
         private System.Windows.Forms.TextBox tbRoll;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox tbchance;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox tbtotalscore;
     }
 }
 
