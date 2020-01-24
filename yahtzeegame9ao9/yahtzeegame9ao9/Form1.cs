@@ -38,6 +38,7 @@ namespace yahtzeegame9ao9
         bool lstreet = false;
         bool volhouse = false;
         bool yahtzee = false;
+        bool countRoll = false;
 
         public Form1()
         {
@@ -57,18 +58,10 @@ namespace yahtzeegame9ao9
             if (count > 0)
             {
 
-
-                count--;
-
-                counter++;
-
-                tbRoll.Text = count.ToString();
-
-
-                if (counter < 4)
+                if (countRoll == false)
                 {
-                    if (!hold1)
-                        resetTotals();
+
+                    countRoll = true;
                     if (hold1 != true)
                     {
                         iRnd = r.Next(1, 7);
@@ -111,6 +104,7 @@ namespace yahtzeegame9ao9
                         {
                             pbDice2.Image = pdDiceIns1.Image;
                             countAllOnes++;
+
                         }
                         else if (iRnd == 2)
                         {
@@ -251,6 +245,7 @@ namespace yahtzeegame9ao9
             fourofakind();
             countNumber();
             yatzee();
+            totalAll();
         }
 
         private void yatzee()
@@ -266,6 +261,13 @@ namespace yahtzeegame9ao9
 
         private void street()
         {
+            if (!lstreet && ((countAllOnes == 1 || countAllOnes == 2) && (countAllTwos == 1 || countAllTwos == 2) && (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) || (countAllTwos == 1 || countAllTwos == 2) && (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) && (countAllFives == 1 || countAllFives == 2) || (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) && (countAllFives == 1 || countAllFives == 2) && (countAllSixs == 1 || countAllSixs == 2)))
+            {
+                countsmallstreet++;
+                lstreet = true;
+            }
+            tbSmallStreet.Text = countsmallstreet.ToString();
+
             if (sstreet && (countAllOnes == 1 && countAllTwos == 1 && countAllThrees == 1 && countAllFours == 1 && countAllFives == 1 || countAllTwos == 1 && countAllThrees == 1 && countAllFours == 1 && countAllFives == 1 && countAllSixs == 1))
             {
                 countlargestreet++;
@@ -273,12 +275,16 @@ namespace yahtzeegame9ao9
             }
             tbLargeStreet.Text = countlargestreet.ToString();
 
-            if (!lstreet && ((countAllOnes == 1 || countAllOnes == 2) && (countAllTwos == 1 || countAllTwos == 2) && (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) || (countAllTwos == 1 || countAllTwos == 2) && (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) && (countAllFives == 1 || countAllFives == 2) || (countAllThrees == 1 || countAllThrees == 2) && (countAllFours == 1 || countAllFours == 2) && (countAllFives == 1 || countAllFives == 2) && (countAllSixs == 1 || countAllSixs == 2)))
-            {
-                countsmallstreet++;
-                lstreet = true;
-            }
-            tbSmallStreet.Text = countsmallstreet.ToString();
+            
+        }
+
+        private void totalAll()
+        {
+            tbTotalAll.Text = totalalll(countYahtzee, countlargestreet, countsmallstreet, threekind, fourkind, volhuis).ToString(); 
+        }
+        private double totalalll(double a, double b, double c, double d, double e, double f)
+        {
+            return a + b + c + d + e + f;
         }
 
         private void FullHouse()
@@ -328,111 +334,35 @@ namespace yahtzeegame9ao9
         }
         private void btnHold_Click(object sender, EventArgs e)
         {
-            hold1 = true;
-            btnHold.Text = "Holded";
+           
         }
 
         private void btnHold2_Click(object sender, EventArgs e)
         {
-            hold2 = true;
-            btnHold2.Text = "Holded";
+           
         }
 
         private void btnHold3_Click(object sender, EventArgs e)
         {
-            hold3 = true;
-            btnHold3.Text = "Holded";
+          
         }
 
         private void btnHold4_Click(object sender, EventArgs e)
         {
-            hold4 = true;
-            btnHold4.Text = "Holded";
+            
         }
 
         private void btnHold5_Click(object sender, EventArgs e)
         {
-            hold5 = true;
-            btnHold5.Text = "Holded";
+            
         }
 
         public void btnReset_Click(object sender, EventArgs e)
         {
-            btnHoldsReset();
-            threek = false;
-            fourk = false;
-            sstreet = true;
-            lstreet = false;
-            volhouse = false;
-            yahtzee = false;
-            HoldstextReset();
-            pbDicesReset();
-            countAlls();
-            counter = 0;
-            count = 3;
-            tbRoll.Text = "3";
-            resetTotals();
+           
         }
 
-        private void btnHoldsReset()
-        {
-            hold1 = false;
-            hold2 = false;
-            hold3 = false;
-            hold4 = false;
-            hold5 = false;
-        }
-
-        private void HoldstextReset()
-        {
-            btnHold.Text = "Hold";
-            btnHold2.Text = "Hold";
-            btnHold3.Text = "Hold";
-            btnHold4.Text = "Hold";
-            btnHold5.Text = "Hold";
-        }
-
-        private void pbDicesReset()
-        {
-            pbDice1.Image = pdDiceInsb.Image;
-            pbDice2.Image = pdDiceInsb.Image;
-            pbDice3.Image = pdDiceInsb.Image;
-            pbDice4.Image = pdDiceInsb.Image;
-            pbDice5.Image = pdDiceInsb.Image;
-        }
-
-        private void countAlls()
-        {
-            countAllOnes = 0;
-            countAllTwos = 0;
-            countAllThrees = 0;
-            countAllFours = 0;
-            countAllFives = 0;
-            countAllSixs = 0;
-            countlargestreet = 0;
-            countsmallstreet = 0;
-            countYahtzee = 0;
-            volhuis = 0;
-            threekind = 0;
-            fourkind = 0;
-        }
-
-        private void resetTotals()
-        {
-            tbTotal1.Text = "";
-            tbTotal2.Text = "";
-            tbTotal3.Text = "";
-            tbTotal4.Text = "";
-            tbTotal5.Text = "";
-            tbTotal6.Text = "";
-            tb3OfAKind.Text = "";
-            tb4OfAKind.Text = "";
-            tbFullHouse.Text = "";
-            tbLargeStreet.Text = "";
-            tbSmallStreet.Text = "";
-            tbTotalAll.Text = "";
-            tbYahtzee.Text = "";
-        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
