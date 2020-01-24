@@ -595,6 +595,8 @@
             this.Controls.Add(this.pbDice2);
             this.Controls.Add(this.pbDice1);
             this.Controls.Add(this.btnRoll);
+            this.MaximumSize = new System.Drawing.Size(818, 497);
+            this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "Form1";
             this.Text = "Yahtzee";
             this.Load += new System.EventHandler(this.Form1_Load);
