@@ -76,6 +76,10 @@
             this.btnReset = new System.Windows.Forms.Button();
             this.pdDiceInsb = new System.Windows.Forms.PictureBox();
             this.tbRoll = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.tbtotaalscore = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.tbchance = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDice3)).BeginInit();
@@ -101,6 +105,7 @@
             this.label6.TabIndex = 59;
             this.label6.Text = "total 6\'s";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Visible = false;
             // 
             // label5
             // 
@@ -113,6 +118,7 @@
             this.label5.TabIndex = 58;
             this.label5.Text = "total 5\'s";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Visible = false;
             // 
             // label4
             // 
@@ -125,6 +131,7 @@
             this.label4.TabIndex = 57;
             this.label4.Text = "total 4\'s";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Visible = false;
             // 
             // label3
             // 
@@ -137,6 +144,7 @@
             this.label3.TabIndex = 56;
             this.label3.Text = "total 3\'s";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Visible = false;
             // 
             // label2
             // 
@@ -149,6 +157,7 @@
             this.label2.TabIndex = 55;
             this.label2.Text = "total 2\'s";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Visible = false;
             // 
             // label1
             // 
@@ -161,6 +170,7 @@
             this.label1.TabIndex = 54;
             this.label1.Text = "total 1\'s";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Visible = false;
             // 
             // tbTotal6
             // 
@@ -168,6 +178,7 @@
             this.tbTotal6.Name = "tbTotal6";
             this.tbTotal6.Size = new System.Drawing.Size(100, 22);
             this.tbTotal6.TabIndex = 53;
+            this.tbTotal6.Visible = false;
             // 
             // tbTotal5
             // 
@@ -175,6 +186,7 @@
             this.tbTotal5.Name = "tbTotal5";
             this.tbTotal5.Size = new System.Drawing.Size(100, 22);
             this.tbTotal5.TabIndex = 52;
+            this.tbTotal5.Visible = false;
             // 
             // tbTotal4
             // 
@@ -182,6 +194,7 @@
             this.tbTotal4.Name = "tbTotal4";
             this.tbTotal4.Size = new System.Drawing.Size(100, 22);
             this.tbTotal4.TabIndex = 51;
+            this.tbTotal4.Visible = false;
             // 
             // tbTotal3
             // 
@@ -189,6 +202,7 @@
             this.tbTotal3.Name = "tbTotal3";
             this.tbTotal3.Size = new System.Drawing.Size(100, 22);
             this.tbTotal3.TabIndex = 50;
+            this.tbTotal3.Visible = false;
             // 
             // tbTotal2
             // 
@@ -196,6 +210,7 @@
             this.tbTotal2.Name = "tbTotal2";
             this.tbTotal2.Size = new System.Drawing.Size(100, 22);
             this.tbTotal2.TabIndex = 49;
+            this.tbTotal2.Visible = false;
             // 
             // tbTotal1
             // 
@@ -203,6 +218,7 @@
             this.tbTotal1.Name = "tbTotal1";
             this.tbTotal1.Size = new System.Drawing.Size(100, 22);
             this.tbTotal1.TabIndex = 48;
+            this.tbTotal1.Visible = false;
             // 
             // tbTotalAll
             // 
@@ -261,6 +277,7 @@
             this.btnHold5.TabIndex = 40;
             this.btnHold5.Text = "Hold";
             this.btnHold5.UseVisualStyleBackColor = true;
+            this.btnHold5.Visible = false;
             this.btnHold5.Click += new System.EventHandler(this.btnHold5_Click);
             // 
             // btnHold4
@@ -271,6 +288,7 @@
             this.btnHold4.TabIndex = 39;
             this.btnHold4.Text = "Hold";
             this.btnHold4.UseVisualStyleBackColor = true;
+            this.btnHold4.Visible = false;
             this.btnHold4.Click += new System.EventHandler(this.btnHold4_Click);
             // 
             // btnHold3
@@ -281,6 +299,7 @@
             this.btnHold3.TabIndex = 38;
             this.btnHold3.Text = "Hold";
             this.btnHold3.UseVisualStyleBackColor = true;
+            this.btnHold3.Visible = false;
             this.btnHold3.Click += new System.EventHandler(this.btnHold3_Click);
             // 
             // btnHold2
@@ -291,6 +310,7 @@
             this.btnHold2.TabIndex = 37;
             this.btnHold2.Text = "Hold";
             this.btnHold2.UseVisualStyleBackColor = true;
+            this.btnHold2.Visible = false;
             this.btnHold2.Click += new System.EventHandler(this.btnHold2_Click);
             // 
             // btnHold
@@ -301,6 +321,7 @@
             this.btnHold.TabIndex = 36;
             this.btnHold.Text = "Hold";
             this.btnHold.UseVisualStyleBackColor = true;
+            this.btnHold.Visible = false;
             this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
             // pbDice5
@@ -522,6 +543,7 @@
             this.btnReset.TabIndex = 80;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Visible = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // pdDiceInsb
@@ -541,6 +563,44 @@
             this.tbRoll.Size = new System.Drawing.Size(100, 22);
             this.tbRoll.TabIndex = 82;
             // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(127, 367);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(100, 22);
+            this.label14.TabIndex = 84;
+            this.label14.Text = "total score";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tbtotaalscore
+            // 
+            this.tbtotaalscore.Location = new System.Drawing.Point(127, 394);
+            this.tbtotaalscore.Name = "tbtotaalscore";
+            this.tbtotaalscore.Size = new System.Drawing.Size(100, 22);
+            this.tbtotaalscore.TabIndex = 83;
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(345, 253);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(100, 22);
+            this.label15.TabIndex = 86;
+            this.label15.Text = "chance";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tbchance
+            // 
+            this.tbchance.Location = new System.Drawing.Point(339, 285);
+            this.tbchance.Name = "tbchance";
+            this.tbchance.Size = new System.Drawing.Size(100, 22);
+            this.tbchance.TabIndex = 85;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -548,6 +608,10 @@
             this.BackgroundImage = global::yahtzeegame9ao9.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.tbchance);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.tbtotaalscore);
             this.Controls.Add(this.tbRoll);
             this.Controls.Add(this.pdDiceInsb);
             this.Controls.Add(this.btnReset);
@@ -666,6 +730,10 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.PictureBox pdDiceInsb;
         private System.Windows.Forms.TextBox tbRoll;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox tbtotaalscore;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox tbchance;
     }
 }
 
