@@ -157,6 +157,7 @@
             this.btnReset.TabIndex = 131;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click_1);
             // 
             // pdDiceIns6
             // 
@@ -228,6 +229,7 @@
             this.btnRegels.TabIndex = 124;
             this.btnRegels.Text = "Regels";
             this.btnRegels.UseVisualStyleBackColor = true;
+            this.btnRegels.Click += new System.EventHandler(this.btnRegels_Click);
             // 
             // label13
             // 
@@ -484,6 +486,7 @@
             this.btnHold5.TabIndex = 97;
             this.btnHold5.Text = "Hold";
             this.btnHold5.UseVisualStyleBackColor = true;
+            this.btnHold5.Click += new System.EventHandler(this.btnHold5_Click_1);
             // 
             // btnHold4
             // 
@@ -493,6 +496,7 @@
             this.btnHold4.TabIndex = 96;
             this.btnHold4.Text = "Hold";
             this.btnHold4.UseVisualStyleBackColor = true;
+            this.btnHold4.Click += new System.EventHandler(this.btnHold4_Click_1);
             // 
             // btnHold3
             // 
@@ -502,6 +506,7 @@
             this.btnHold3.TabIndex = 95;
             this.btnHold3.Text = "Hold";
             this.btnHold3.UseVisualStyleBackColor = true;
+            this.btnHold3.Click += new System.EventHandler(this.btnHold3_Click_1);
             // 
             // btnHold2
             // 
@@ -511,6 +516,7 @@
             this.btnHold2.TabIndex = 94;
             this.btnHold2.Text = "Hold";
             this.btnHold2.UseVisualStyleBackColor = true;
+            this.btnHold2.Click += new System.EventHandler(this.btnHold2_Click_1);
             // 
             // btnHold
             // 
@@ -520,6 +526,7 @@
             this.btnHold.TabIndex = 93;
             this.btnHold.Text = "Hold";
             this.btnHold.UseVisualStyleBackColor = true;
+            this.btnHold.Click += new System.EventHandler(this.btnHold_Click_1);
             // 
             // pbDice5
             // 
@@ -574,6 +581,7 @@
             this.btnRoll.TabIndex = 87;
             this.btnRoll.Text = "Roll";
             this.btnRoll.UseVisualStyleBackColor = true;
+            this.btnRoll.Click += new System.EventHandler(this.btnRoll_Click_1);
             // 
             // Form1
             // 

@@ -65,7 +65,7 @@ namespace yahtzeegame9ao9
             System.Diagnostics.Process.Start("https://www.spelregels.eu/PDF/spelregels-yahtzee.pdf");
         }
 
-        private void btnRoll_Click(object sender, EventArgs e)
+        private void btnRoll_Click_1(object sender, EventArgs e)
         {
             Random r = new Random();
             int iRnd = new int();
@@ -472,37 +472,37 @@ namespace yahtzeegame9ao9
         }
 
 
-        private void btnHold_Click(object sender, EventArgs e)
+        private void btnHold_Click_1(object sender, EventArgs e)
         {
             hold1 = true;
             btnHold.Text = "Holded";
         }
 
-        private void btnHold2_Click(object sender, EventArgs e)
+        private void btnHold2_Click_1(object sender, EventArgs e)
         {
             hold2 = true;
             btnHold2.Text = "Holded";
         }
 
-        private void btnHold3_Click(object sender, EventArgs e)
+        private void btnHold3_Click_1(object sender, EventArgs e)
         {
             hold3 = true;
             btnHold3.Text = "Holded";
         }
 
-        private void btnHold4_Click(object sender, EventArgs e)
+        private void btnHold4_Click_1(object sender, EventArgs e)
         {
             hold4 = true;
             btnHold4.Text = "Holded";
         }
 
-        private void btnHold5_Click(object sender, EventArgs e)
+        private void btnHold5_Click_1(object sender, EventArgs e)
         {
             hold5 = true;
             btnHold5.Text = "Holded";
         }
 
-        public void btnReset_Click(object sender, EventArgs e)
+        public void btnReset_Click_1(object sender, EventArgs e)
         {
             btnHoldsReset();
             threek = false;
@@ -587,3 +587,4 @@ namespace yahtzeegame9ao9
 
     }
 }
+
